@@ -10,7 +10,7 @@ const app = express();
 // Connect to database
 connectDB();
 app.use(cors({
-    origin: [""],
+    origin: ["anime-tracker-fron.vercel.app"],
     methods: ["POST", "GET"],
     credentials: true
 }));
